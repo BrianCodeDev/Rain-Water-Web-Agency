@@ -1,3 +1,40 @@
 .navbar .container-fluid img {
     margin-right: 10px;
 }
+
+.collapse .navbar-nav .nav-item .nav-link {
+    color: black;
+    font-weight: bold;
+}
+.collapse .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(7, 20, 138);
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar .container-fluid .navbar-brand {
+    color: rgb(8, 35, 156);
+    font-weight: bolder;
+    
+}
+.d-flex .btn {
+    background-color: rgb(4, 41, 121);
+    color: aliceblue;
+    border-radius: 50px;
+    width: 100px;
+}
+.d-flex .btn:hover {
+    background-color: rgb(1, 19, 34);
+    color: aliceblue;
+    border-radius: 50px;
+    width: 100px;
+    font-size: 20px;
+}
+.jumbotron {
+    background-image: url('assets/group-of-company-img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: 300px;
+    text-align: center;
+
+}
