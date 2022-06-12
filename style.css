@@ -30,11 +30,10 @@ body {
 }
 
 .d-flex .btn:hover {
-  background-color: rgb(1, 19, 34);
+  background-color: rgb(8, 74, 128);
   color: aliceblue;
   border-radius: 50px;
   width: 100px;
-  font-size: 20px;
 }
 
 .jumbotron {
@@ -72,6 +71,27 @@ body {
 
 .carousel-control-prev {
   color: aliceblue;
+}
+
+.card-group .card {
+  background-color: rgba(2, 50, 133, 0);
+  box-shadow: 5px 2px 1px rgb(33, 33, 33);
+  margin-left: 40px;
+  margin-right: 40px;
+  height: 350px;
+}
+
+.card-body .card-title {
+  color: rgb(0, 13, 255);
+}
+
+.row .col .card {
+  background-color: rgba(2, 50, 133, 0.537);
+  box-shadow: 5px 2px 1px rgb(33, 33, 33);
+  margin-left: 80px;
+  margin-right: 80px;
+  height: 350px;
+  margin-top: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
